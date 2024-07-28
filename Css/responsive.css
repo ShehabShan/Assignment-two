@@ -179,6 +179,73 @@
     height: 268px;
     margin-left: 70px;
   }
+
+  /* Training section */
+
+  .training-section {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .training-content {
+    width: 458px;
+    color: var(--font-color);
+    margin-bottom: 65px;
+  }
+  .training-content h1 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 20px;
+  }
+  .training-content p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  #images11 {
+    width: 50%;
+    height: 185px;
+  }
+
+  #images12 {
+    width: 50%;
+    height: 185px;
+  }
+  #images13 {
+    display: none;
+  }
+  #images14 {
+    width: 50%;
+    height: 185px;
+  }
+  #images15 {
+    width: 50%;
+    height: 185px;
+  }
+  #images16 {
+    display: none;
+  }
+  #N1 {
+    top: 130px;
+    left: 20px;
+}
+  #N2 {
+    top: 29px;
+    left: 329px;
+}
+  #N3 {
+    display: none;
+  }
+  #N4 {
+    top: 311px;
+    left: 25px;
+}
+  #N5 {
+    top: 314px;
+    left: 282px;
+}
+  #N6 {
+    display: none;
+  }
   /* bmi-calculator section */
   .bmi-section {
     width: 100%;

@@ -305,7 +305,6 @@ section {
   max-width: 1520px;
   margin: 0 auto;
   margin-top: 100px;
-  border: 1px solid red;
 }
 .training-content {
   width: 808px;
@@ -330,71 +329,77 @@ section {
 .flex-2 {
   display: flex;
 }
-.flex-img img {
-}
-#images1 {
+
+#images11 {
   background-image: url(/images/exercise1.jpg);
   background-color: rgba(6, 255, 210, 0.5);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-blend-mode: overlay;
+  border: none;
 }
-#images2 {
+#images12 {
   background-image: url(/images/exercise2.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgba(255, 0, 0, 0.3);
   background-blend-mode: overlay;
 }
-#images3 {
+#images13 {
   background-image: url(/images/exercise3.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
 }
-#images4 {
-background-image: url(/images/exercise4.png);
+#images14 {
+  background-image: url(/images/exercise4.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: overlay;
 }
-#images5 {
+#images15 {
   background-image: url(/images/exercise5.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgba(66, 255, 0, 0.3);
   background-blend-mode: overlay;
 }
-#images6 {
+#images16 {
   background-image: url(/images/exercise6.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: rgba(0, 71, 255, 0.3);
   background-blend-mode: overlay;
 }
-#images1 img {
+#images11 {
   width: 360px;
   height: 300px;
 }
-#images2 img {
+#images12 {
   width: 733px;
   height: 300px;
 }
-#images3 img {
+#images13 {
   width: 426px;
   height: 300px;
 }
-#images4 img {
+#images14 {
   width: 575px;
   height: 300px;
 }
-#images5 img {
+#images15 {
   width: 457px;
   height: 300px;
 }
-#images6 img {
+#images16 {
   width: 486px;
   height: 300px;
 }
