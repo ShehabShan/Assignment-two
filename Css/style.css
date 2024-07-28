@@ -628,28 +628,28 @@ section {
   font-weight: 900;
 }
 #name1 {
-  top: 280px;
-  left: 30px;
+  top: 348px;
+  left: 57px;
 }
 #name2 {
-  top: 280px;
-  left: 390px;
+  top: 350px;
+  left: 526px;
 }
 #name3 {
-  top: 280px;
-  left: 750px;
+  top: 352px;
+  left: 986px;
 }
 #name4 {
-  top: 610px;
-  left: 30px;
+  top: 760px;
+  left: 75px;
 }
 #name5 {
-  top: 610px;
-  left: 390px;
+  top: 750px;
+  left: 534px;
 }
 #name6 {
-  top: 610px;
-  left: 750px;
+  top: 750px;
+  left: 1002px;
 }
 .trainer {
   font-weight: 300;
