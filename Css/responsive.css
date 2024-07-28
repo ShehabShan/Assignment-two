@@ -1,6 +1,5 @@
 @media screen and (max-width: 576px) {
   body {
-    /* width: 83%; */
     margin: 0 auto;
     background: #000000;
   }
@@ -16,6 +15,7 @@
   }
   .menu-icon {
     display: block;
+    cursor: pointer;
   }
   /* banner section responsive */
   .banner-container {
@@ -48,6 +48,7 @@
     font-size: 23px;
     font-weight: 700;
     padding: 10px;
+    cursor: pointer;
   }
   .first-btn,
   .second-btn {
@@ -217,9 +218,7 @@
     width: 470px;
     margin: 20px 60px 20px 20px;
   }
-  .calculate {
-    width: 50%;
-  }
+
   .input-content {
     width: 450px;
     margin-left: 20px;
@@ -234,18 +233,31 @@
   .input-fild {
     margin: 1px 20px 1px 20px;
   }
-  .calculate {
-    margin-top: -30px;
-    margin-bottom: -20px;
-    width: 320px;
+  .calc {
+    width: 300px;
+    display: flex;
+    gap: 12px;
+    padding: 0px 0px;
   }
 
   /* team container start here */
+  .team-content {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 110px;
+    width: 368px;
+  }
+  .team-content h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: 900;
+  }
   .team-img {
+    width: 441px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-left: -20px;
   }
   .team-img img {
     width: 100%;
@@ -275,36 +287,25 @@
 
   #name1 {
     display: none;
-    /* top: 280px;
-    left: 30px; */
   }
   #name2 {
-    top: 280px;
-    left: 30px;
-
-    /* top: 610px;
-    left: 30px;  */
+    top: 349px;
+    left: 57px;
   }
   #name3 {
-    top: 975px;
-    left: 30px;
+    top: 1172px;
+    left: 60px;
   }
   #name4 {
     display: none;
-    /* top: 1325px;
-    left: 30px; */
   }
   #name5 {
-    top: 610px;
-    left: 30px;
-    /* top: 1680px;
-    left: 30px; */
+    top: 768px;
+    left: 61px;
   }
   #name6 {
-    top: 1325px;
-    left: 30px;
-    /* top: 2030px;
-    left: 30px; */
+    top: 1604px;
+    left: 60px;
   }
 
   /* footer start here */
@@ -316,17 +317,18 @@
   .footer-container {
     flex-direction: column;
     gap: 30px;
-    margin-left: 35px;
+    margin-left: 50px;
   }
   .fitness {
-    width: 100%;
+    width: 404px;
   }
 
   .Fit {
-    font-size: 70px;
+    font-size: 100px;
   }
   .fitness p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 33px;
     margin-bottom: 20px;
   }
   .get-started {
@@ -342,11 +344,13 @@
     margin-top: 40px;
   }
   .get li {
-    font-size: 25px;
+    font-size: 32px;
+    font-weight: 300;
   }
   .right {
     text-align: left;
-    font-size: 24px;
+    opacity: 0.5;
+    font-size: 26px;
   }
   /* end script */
 }
