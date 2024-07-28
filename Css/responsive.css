@@ -1,12 +1,14 @@
 @media screen and (max-width: 576px) {
   body {
-    width: 83%;
+    /* width: 83%; */
     margin: 0 auto;
+    background: #000000;
   }
   .navbar {
-    margin: 50px 20px;
-    margin-bottom: 100px;
+    margin: 70px 25px;
+    margin-bottom: 1px;
     width: calc(100% - 40px);
+    /* margin-left: 25px; */
   }
 
   .menu {
@@ -17,15 +19,18 @@
   }
   /* banner section responsive */
   .banner-container {
-    display: flex;
+    width: 100%;
     flex-direction: column;
+    background: #222222;
   }
   .banner-content {
-    width: 125%;
-    margin-left: -50px;
+    width: 78%;
+    margin-left: 25px;
   }
   .banner-content h1 {
-    margin-bottom: 40px;
+    font-size: 50px;
+    margin-bottom: 25px;
+    font-weight: 800;
   }
   .banner-content p {
     font-size: 22px;
@@ -34,13 +39,15 @@
     margin-bottom: 50px;
   }
   .primary-btn {
+    width: 120%;
     display: flex;
     gap: 12px;
-    padding: 20px 2px;
+    padding: 0px 0px;
   }
   .primary-btn button {
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 700;
+    padding: 10px;
   }
   .first-btn,
   .second-btn {
@@ -51,41 +58,63 @@
     display: none;
   }
   .banner-pic {
-    width: 125%;
+    width: 100%;
     margin-top: 100px;
     margin-top: 0 auto;
-    margin-left: -50px;
   }
   .banner-pic img {
-    width: 460px;
-    height: 600px;
-    margin-left: 20px;
+    width: 504px;
+    height: 700px;
+    margin-left: -157px;
   }
   .text-500 {
-    right: 20px;
+    right: 45px;
+    top: 846px;
   }
-  .text-500 h1 {
-    font-size: 55px;
+  .text-500.banner-text h1 {
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .text-500.banner-text p {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 1.8px;
+  }
+  .banner-text {
+    padding: 12px 16px;
+    background: #383838;
+    border: 1.2px solid #4b4b4b;
+    border-radius: 15px;
+    text-align: start;
   }
   .text-350 {
-    right: 50px;
-    bottom: 220px;
+    left: 43px;
+    bottom: -335px;
+    padding: 20px 22px;
   }
   .text-350 h1 {
-    font-size: 55px;
+    text-align: start;
+    font-size: 23px;
   }
+  .text-350 p {
+    margin-top: 8px;
+    opacity: 0.65;
+  }
+
   /* Hero section start here */
   .hero-content {
-    width: 120%;
-    margin-left: -30px;
+    width: 403px;
+    margin: 0 auto;
     margin-top: -140px;
+    padding: 16px;
   }
   .hero-content h2 {
     font-size: 40px;
   }
   .hero-content p {
     line-height: 35px;
-    opacity: 0.7;
+    opacity: 0.5;
+    margin-top: 10px;
   }
   .img-container {
     width: 85%;
@@ -94,64 +123,123 @@
     display: flex;
     flex-direction: column;
   }
+  .round-text {
+    width: 310px;
+    margin-bottom: 55px;
+    text-align: center;
+  }
   .round-text h3 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 500;
   }
   .round-text p {
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .round-img {
+    margin-bottom: 30px;
+    border: 5px solid #191919;
+    border-radius: 50%;
+  }
+  .round-img img {
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: -4px;
   }
   /* run container start here */
   .run-container {
+    padding: 30px 90px 45px 20px;
     flex-direction: column;
-    width: 92%;
+    width: 70%;
     align-items: center;
     justify-content: center;
     gap: 1px;
-    margin: 0 auto;
-    margin-left: -30px;
+  }
+  .run-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 22px 37px 10px;
+    margin-left: 72px;
   }
   .run-content h1 {
-    font-size: 55px;
+    font-size: 42px;
   }
   .run-content p {
-    line-height: 30px;
-    font-size: 22px;
+    line-height: 33px;
+    font-size: 19px;
     opacity: 0.5;
+    font-weight: 400;
   }
   .run-img img {
-    width: 90%;
-    margin-left: 20px;
+    width: 412px;
+    height: 268px;
+    margin-left: 70px;
   }
   /* bmi-calculator section */
   .bmi-section {
-    width: 125%;
-    margin-left: -60px;
+    width: 100%;
   }
-  .bmi-content p {
-    line-height: 25px;
+  .bmi-content {
+    max-width: 451px;
+    color: var(--font-color);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 35px;
   }
   .bmi-content h1 {
-    font-size: 43px;
+    font-size: 46px;
   }
+  .bmi-content p {
+    line-height: 33px;
+    font-size: 20px;
+  }
+
   .bmi-calculator {
-    width: 95%;
     display: flex;
     flex-direction: column;
   }
   .bmi-chart {
-    width: 90%;
+    margin-bottom: -240px;
+    margin-top: 0px;
+  }
+  .bmi-chart h2 {
+    font-size: 24px;
+    margin: 20px 20px 26px 20px;
   }
   .bmi-chart table {
-    width: 100%;
+    width: 470px;
+    margin: 20px 60px 20px 20px;
   }
   .calculate {
-    width: 66%;
+    width: 50%;
+  }
+  .input-content {
+    width: 450px;
+    margin-left: 20px;
+  }
+  .input-content h2 {
+    font-size: 22px;
   }
   .input-content p {
     margin-top: 20px;
-    line-height: 25px;
+    line-height: 34px;
   }
+  .input-fild {
+    margin: 1px 20px 1px 20px;
+  }
+  .calculate {
+    margin-top: -30px;
+    margin-bottom: -20px;
+    width: 320px;
+  }
+
   /* team container start here */
   .team-img {
     display: flex;
