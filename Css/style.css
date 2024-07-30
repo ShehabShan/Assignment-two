@@ -341,7 +341,7 @@ section {
 }
 
 #images11 {
-  background-image: url(/images/exercise1.jpg);
+  background-image: url(../images/exercise1.jpg);
   background-color: rgba(6, 255, 210, 0.5);
   background-repeat: no-repeat;
   background-position: center;
@@ -350,7 +350,7 @@ section {
   border: none;
 }
 #images12 {
-  background-image: url(/images/exercise2.png);
+  background-image: url(../images/exercise2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -358,7 +358,7 @@ section {
   background-blend-mode: overlay;
 }
 #images13 {
-  background-image: url(/images/exercise3.png);
+  background-image: url(../images/exercise3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -366,7 +366,7 @@ section {
   background-blend-mode: overlay;
 }
 #images14 {
-  background-image: url(/images/exercise4.png);
+  background-image: url(../images/exercise4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -374,7 +374,7 @@ section {
   background-blend-mode: overlay;
 }
 #images15 {
-  background-image: url(/images/exercise5.jpg);
+  background-image: url(../images/exercise5.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -382,7 +382,7 @@ section {
   background-blend-mode: overlay;
 }
 #images16 {
-  background-image: url(/images/exercise6.jpg);
+  background-image: url(../images/exercise6.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
