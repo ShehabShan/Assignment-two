@@ -3,11 +3,17 @@
     margin: 0 auto;
     background: #000000;
   }
+  /* header {
+    background: linear-gradient(
+      180deg,
+      rgb(17, 17, 17),
+      rgba(119, 119, 119, 0) 100%
+    );
+  } */
   .navbar {
     margin: 70px 25px;
     margin-bottom: 1px;
     width: calc(100% - 40px);
-    /* margin-left: 25px; */
   }
 
   .menu {
@@ -21,7 +27,6 @@
   .banner-container {
     width: 100%;
     flex-direction: column;
-    background: #222222;
   }
   .banner-content {
     width: 78%;
@@ -227,22 +232,22 @@
   #N1 {
     top: 130px;
     left: 20px;
-}
+  }
   #N2 {
     top: 29px;
     left: 329px;
-}
+  }
   #N3 {
     display: none;
   }
   #N4 {
     top: 311px;
     left: 25px;
-}
+  }
   #N5 {
     top: 314px;
     left: 282px;
-}
+  }
   #N6 {
     display: none;
   }
