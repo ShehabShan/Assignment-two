@@ -9,7 +9,7 @@
   --font-color: #ffffff;
   --border: 1px solid red;
   --primary-btn-color: #e6533c;
-  --paragraph-color: rgba(255, 255, 255, 0.5);
+  --paragraph-color: rgba(255, 255, 255, 0.7);
 }
 body {
   font-family: "Inter", sans-serif;
