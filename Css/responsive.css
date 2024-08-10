@@ -3,13 +3,15 @@
     margin: 0 auto;
     background: #000000;
   }
-  /* header {
-    background: linear-gradient(
+  .head-back-color {
+    /* background: linear-gradient(
       180deg,
-      rgb(17, 17, 17),
+      rgba(17, 17, 17),
       rgba(119, 119, 119, 0) 100%
-    );
-  } */
+    ); */
+    background: linear-gradient(#111111FF 100%,
+    #77777700 0%);
+  }
   .navbar {
     margin: 70px 25px;
     margin-bottom: 1px;
