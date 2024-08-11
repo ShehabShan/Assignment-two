@@ -121,6 +121,7 @@ header {
 }
 
 .banner-pic {
+  position: relative;
   width: 50%;
 }
 .banner-pic img {
@@ -129,12 +130,13 @@ header {
   height: 770px;
   margin-left: 60px;
   left: 196px;
+  object-fit: cover;
 }
 
 .text-500 {
   position: absolute;
-  top: 380px;
-  right: 166px;
+  top: 154px;
+  right: -65px;
   text-align: center;
   padding: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -165,8 +167,8 @@ header {
 }
 .text-350 {
   position: absolute;
-  left: 1112px;
-  bottom: 29px;
+  left: 165px;
+  bottom: 93px;
   text-align: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
@@ -604,8 +606,8 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  position: relative;
   border-radius: 18px;
+  position: relative;
   background: rgba(255, 255, 255, 0.1);
   gap: 20px;
   padding: 30px;
@@ -622,6 +624,7 @@ section {
   font-weight: 900;
   font-size: 26px;
   font-weight: 900;
+  z-index: 4;
 }
 #name1 {
   top: 284px;

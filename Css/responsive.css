@@ -40,6 +40,7 @@
     line-height: 38px;
     margin-bottom: 50px;
   }
+
   .primary-btn {
     width: 120%;
     display: flex;
@@ -69,11 +70,12 @@
     width: 504px;
     height: 700px;
     margin-left: -157px;
+    object-fit: cover;
   }
   .text-500 {
-    right: 45px;
-    top: 846px;
-  }
+    right: 30px;
+    top: 11px;
+}
   .text-500.banner-text h1 {
     font-size: 40px;
     font-weight: 800;
@@ -91,10 +93,10 @@
     text-align: start;
   }
   .text-350 {
-    left: 43px;
-    bottom: -335px;
+    left: 49px;
+    bottom: 282px;
     padding: 20px 22px;
-  }
+}
   .text-350 h1 {
     text-align: start;
     font-size: 23px;
@@ -357,24 +359,24 @@
     display: none;
   }
   #name2 {
-    top: 349px;
+    top: 306px;
     left: 57px;
-  }
-  #name3 {
-    top: 1172px;
-    left: 60px;
-  }
+}
+#name3 {
+  top: 1040px;
+  left: 60px;
+}
   #name4 {
     display: none;
   }
   #name5 {
-    top: 768px;
+    top: 666px;
     left: 61px;
-  }
-  #name6 {
-    top: 1604px;
-    left: 60px;
-  }
+}
+#name6 {
+  top: 1410px;
+  left: 60px;
+}
 
   /* footer start here */
   footer {
