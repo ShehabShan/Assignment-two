@@ -426,6 +426,11 @@ section {
 }
 
 /* BMI Calculator section run from here */
+.bmi-section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
 .bmi-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -441,7 +446,6 @@ section {
   text-align: left;
   margin-top: 120px;
   margin-bottom: 120px;
-  margin-left: 433px;
 }
 .bmi-content h1 {
   margin-bottom: 20px;
@@ -614,7 +618,7 @@ section {
 }
 .team-img img {
   width: 100%;
-  height: 340px;
+  height: 370px;
   border-radius: 15px;
   filter: brightness(80%);
 }
@@ -623,31 +627,30 @@ section {
   color: var(--font-color);
   font-weight: 900;
   font-size: 26px;
-  font-weight: 900;
   z-index: 4;
 }
 #name1 {
-  top: 284px;
+  top: 319px;
   left: 57px;
 }
 #name2 {
-  top: 284px;
+  top: 322px;
   left: 526px;
 }
 #name3 {
-  top: 284px;
+  top: 322px;
   left: 986px;
 }
 #name4 {
-  top: 650px;
+  top: 708px;
   left: 60px;
 }
 #name5 {
-  top: 650px;
+  top: 708px;
   left: 534px;
 }
 #name6 {
-  top: 650px;
+  top: 708px;
   left: 992px;
 }
 .trainer {
@@ -661,8 +664,10 @@ section {
 /* footer start here */
 
 footer {
+  margin: 0 auto;
   background: #191919;
   margin-top: 110px;
+  max-width: 100%
 }
 .footer-container {
   max-width: 1440px;
