@@ -4,7 +4,7 @@
     background: #000000;
   }
   .head-back-color {
-    background: linear-gradient(#111111FF 100%,
+    background: linear-gradient(rgb(27, 27, 27) 100%,
     #77777700 0%);
   }
   .navbar {
@@ -67,14 +67,15 @@
     margin-top: 0 auto;
   }
   .banner-pic img {
-    width: 504px;
+    width: 460px;
     height: 700px;
     margin-left: -157px;
     object-fit: cover;
-  }
-  .text-500 {
-    right: 30px;
-    top: 11px;
+    filter: brightness(95%);
+}
+.text-500 {
+  right: 44px;
+  top: 37px;
 }
   .text-500.banner-text h1 {
     font-size: 40px;
@@ -93,8 +94,8 @@
     text-align: start;
   }
   .text-350 {
-    left: 49px;
-    bottom: 282px;
+    left: 54px;
+    bottom: 297px;
     padding: 20px 22px;
 }
   .text-350 h1 {
